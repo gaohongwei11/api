@@ -12,7 +12,7 @@ app.use(bodyParser.urlencoded({ extended: false }))
 
 
 app.get('/proxy/v1/hello', async (req, res) => {
-  res.json({ code: 200, data: 'hello' })
+  res.json({ code: 200, data: 'hello!' })
 })
 
 app.listen(port, () => {
